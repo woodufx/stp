@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import FirstLab from './pages/FirstLab/FirstLab';
 import FivthLab from './pages/FivthLab/FivthLab';
 import FourthLab from './pages/FourthLab/FourthLab';

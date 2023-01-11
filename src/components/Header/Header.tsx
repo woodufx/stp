@@ -1,11 +1,6 @@
 import React, { FC } from "react";
 import { Routes, Route, Link } from 'react-router-dom';
 import './header.scss';
-import FirstLab from "../pages/FirstLab/FirstLab";
-import SecondLab from "../pages/SecondLab/SecondLab";
-import ThirdLab from "../pages/ThirdLab/ThirdLab";
-import FourthLab from "../pages/FourthLab/FourthLab";
-import FivthLab from "../pages/FivthLab/FivthLab";
 
 export const Header: FC= () => {
   return (

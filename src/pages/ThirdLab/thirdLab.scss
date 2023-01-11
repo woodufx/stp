@@ -1,0 +1,46 @@
+.thirdLab {
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__inner {
+    padding: 20px 0;
+    width: 62.5vw;
+    min-height: 80vh;
+  }
+  &__cover{
+    width: 100%;
+    object-fit: cover;
+    height: 20vh;
+    border-radius: 5px;
+  }
+  h1 {
+    margin-bottom: 32px;
+  }
+  &__content {
+    margin-bottom: 12px;
+  }
+  &__blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  &__block:nth-child(2n) h3{
+    color: #7165E3;
+  }
+  &__block h3 {
+    text-transform: uppercase;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__block p:last-child {
+    margin-bottom: 8px;
+  }
+}
