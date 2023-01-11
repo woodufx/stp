@@ -1,0 +1,42 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F6F8;
+
+  &__inner{
+    width: 62.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    font-weight: 600;
+    font-size: 30px;
+    color: #7165E3;
+    text-decoration: none;
+    transition: all ease-in 0.1s;
+  }
+  &__links {
+    display: flex;
+    gap: 40px;
+  }
+  &__link {
+    text-decoration: none;
+    color:#7165E3;
+    transition: all ease-in 0.1s;
+  }
+  &__link:visited {
+    color:#7165E3;
+  }
+  &__link:hover, &__logo:hover {
+    transform: scale(1.05);
+    transition: all ease-in 0.1s;
+  }
+  &__link:active, &__logo:active {
+    color: #A399FF;
+    transition: all ease-in 0.1s;
+  }
+}

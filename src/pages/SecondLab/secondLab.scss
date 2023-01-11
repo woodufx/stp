@@ -1,0 +1,75 @@
+h1 {
+  font-size: 30px;
+  color: #7165E3;
+}
+h2 {
+  font-size: 24px;
+  color: #7165E3;
+}
+h3 {
+  font-size: 22px;
+  color: black;
+}
+
+img {
+  color: red;
+  
+}
+
+a {
+  color: #7165E3;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #352f9e;
+}
+
+.firstLab__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.secondDiv span:first-child{
+  color: rgb(67, 2, 128);
+}
+
+.secondDiv p:last-child{
+    color: red;
+}
+
+.secondDiv p:last-child::first-line{
+  font-weight: 600;
+}
+
+.secseconSecondDiv > span {
+  color:rgb(241, 137, 0);
+}
+
+.thirdSecondDiv p:first-of-type {
+  color: red;
+  span {
+    color:rgb(241, 137, 0);
+  }
+}
+
+.thirdSecondDiv span:not(:first-child){
+  color:rgb(241, 137, 0);
+}
+
+.linksAndImages {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+
+.before_and_after::after {
+  content: " !!!вставил в конце!!!"
+}
+
+.before_and_after::before {
+  content: " !!!вставил в начале!!!";
+}

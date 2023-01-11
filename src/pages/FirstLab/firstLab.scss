@@ -1,0 +1,25 @@
+h1 {
+  font-size: 30px;
+  color: #7165E3;
+}
+h2 {
+  font-size: 24px;
+  color: #7165E3;
+}
+h3 {
+  font-size: 22px;
+  color: black;
+}
+img {
+  width: 400px;
+}
+
+span {
+  text-decoration: underline;
+  background-color: #F5F6F8;
+}
+.firstLab__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
