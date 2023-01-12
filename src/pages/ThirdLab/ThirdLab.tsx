@@ -16,16 +16,16 @@ export const ThirdLab: FC= () => {
             <h2>Оглавление:</h2>
             <ul>
               <li>
-                <Link activeClass="active"to='article_1' spy={true} smooth={true} duration={600}>Допустим, небо темнеет</Link>
+                <Link to='article_1' spy={true} smooth={true} duration={600} className="thirdLab__link">Допустим, небо темнеет</Link>
               </li>
               <li>
-                <Link to='article_2' spy={true} smooth={true} duration={800}>Герцог графства коронован</Link>
+                <Link to='article_2' spy={true} smooth={true} duration={800} className="thirdLab__link">Герцог графства коронован</Link>
               </li>
               <li>
-                <Link to='article_3' spy={true} smooth={true} duration={1300}>Дурное дело нехитрое: курс ценных бумаг попахивает безумием</Link>
+                <Link to='article_3' spy={true} smooth={true} duration={1300} className="thirdLab__link">Дурное дело нехитрое: курс ценных бумаг попахивает безумием</Link>
               </li>
               <li>
-                <Link to='article_4' spy={true} smooth={true} duration={2000}>В провинции  никого не пугает детский заливистый смех</Link>
+                <Link to='article_4' spy={true} smooth={true} duration={2000} className="thirdLab__link">В провинции  никого не пугает детский заливистый смех</Link>
               </li>
             </ul>
           </div>

@@ -29,6 +29,9 @@
     justify-content: flex-start;
     gap: 20px;
   }
+  &__link:hover {
+    cursor: pointer;
+  }
   &__block:nth-child(2n) h3{
     color: #7165E3;
   }
